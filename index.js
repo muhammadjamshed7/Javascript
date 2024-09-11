@@ -54,3 +54,5 @@
 
 // // Execute the function when the page loads
 // window.onload = switchTabsAndScroll;
+// Primitive data type and non primitive data type
+// Dynamic typed langugate
