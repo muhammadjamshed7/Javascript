@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Tab Switch and Scroll</title>
+    <style>
+        body {
+            height: 2000px; /* Adding height to make the page scrollable */
+        }
+    </style>
+</head>
+<body>
+    <h1>Auto Tab Switch and Scroll Demo</h1>
+    <p>Watch the tab focus switch and the page scroll every 5 seconds.</p>
+
+    <script>
+        // Function to scroll the page and switch focus
+        function switchTabsAndScroll() {
+            let scrollDirection = 'down'; // To keep track of scroll direction
+            let scrollDistance = 10; // Distance to scroll each time
+
+            setInterval(() => {
+                // Switch tabs (forces window to be in focus)
+                window.focus();
+
+                // Scroll the page
+                if (scrollDirection === 'down') {
+                    window.scrollBy(0, scrollDistance);
+                    scrollDirection = 'up';
+                } else {
+                    window.scrollBy(0, -scrollDistance);
+                    scrollDirection = 'down';
+                }
+            }, 5000); // Switch tabs and scroll every 5 seconds
+        }
+
+        // Start the process when the page loads
+        window.onload = switchTabsAndScroll;
+    </script>
+</body>
+</html>
