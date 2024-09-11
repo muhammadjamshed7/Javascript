@@ -56,3 +56,8 @@
 // window.onload = switchTabsAndScroll;
 // Primitive data type and non primitive data type
 // Dynamic typed langugate
+// const id=Symbol('123')
+// const anotherId=Symbol('123')
+// console.log(id===anotherId)
+
+// Camel case javascript name convention
