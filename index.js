@@ -1,3 +1,10 @@
+// import AppBar from '@mui/material/AppBar'
+// import Toolbar from '@mui/material/Toolbar'
+// import Typography from '@mui/material/Typography'
+// import CardHeader from '@mui/material/CardHeader'
+// import Avatar from '@mui/material/Avatar'
+// import IconButton from '@mui/material/IconButton'
+// import BottomNavigation from '@mui/material/BottomNavigation'
 // "use strict";
 // // var jimi= "jamshed";
 // // let jimi2="mehsud";
@@ -61,3 +68,94 @@
 // console.log(id===anotherId)
 
 // Camel case javascript name convention
+
+// function as a variable
+
+// const myFun=function(){
+//     console.log("Hello world")
+// }
+// myFun()
+
+
+// <AppBar position="fixed" color="primary">
+//   <Toolbar>
+//     <Typography variant="h6">
+      
+//     </Typography>
+//   </Toolbar>
+// </AppBar>
+// <CardHeader
+//   avatar={
+//     <Avatar aria-label="">
+      
+//     </Avatar>
+//     <BottomNavigation value={} onChange={}>
+      
+//     </BottomNavigation>
+//   }
+//   action={
+//     <IconButton aria-label="">
+      
+//     </IconButton>
+//   }
+//   title=""
+//   subheader=""
+  
+// />
+
+
+
+
+// Heap(non premitive) and Stack (premitive)
+// premitive data will be changed in copy
+// non premitive data will changed in original
+
+
+// let youtube="jimi@gmail.com"
+// let another=youtube
+// another=""
+// console.log(another)
+
+// let userOne={
+//     email:'j@gmail.com',
+//     upi:'easypaisa'
+// }
+// let userTwo=userOne
+// userTwo.email="k@gmail.com"
+// console.log(userOne.email)
+// console.log(userTwo.email)
+
+// const name="jamshed"
+// const repoCount=50
+// // console.log(name+repoCount + "value")
+// console.log(`Hello my name is ${name} and my repo count is ${repoCount}`)
+ 
+// const jam="jamshedmehsud"
+// console.log(jam.charAt(3))
+// console.log(jam.indexOf("e"))
+// const newstring=jam.slice(0,2)
+// // console.log(newstring)
+// const anotherstring=jam.slice(-3,2)
+// console.log(anotherstring)
+// const substring=jam.substring(0,4)
+// console.log(substring)
+// const newString="        hitesh        "
+// console.log(newString)
+// console.log(newString.trim())
+
+
+// const jamsheed="ajmehsud12@gmail.com%20khan-j"
+// console.log(jamsheed.replace('20',"fcl"))
+// console.log(jamsheed.includes('12'))
+// console.log(jamsheed.split('-'))
+
+
+
+// const mydate=new Date()
+// console.log(mydate)
+// console.log(mydate.toString())
+// console.log(mydate.toJSON())
+// console.log(mydate.toLocaleDateString())
+// let myCreatedDate=new Date(2023,0,23)
+// let myCreatedDate=new Date(2023,0,23,12,4,4)
+// console.log(myCreatedDate.toString())
